@@ -1,0 +1,19 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+.venv/
+*.log
+*.csv
+*.h5
+*.tfevents
+.pytest_cache/
+mlruns/
+*.DS_Store
+
