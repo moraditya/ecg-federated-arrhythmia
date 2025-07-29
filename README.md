@@ -13,3 +13,14 @@ A project for developing a federated learning system for ECG arrhythmia detectio
 
 ## Setup
 (To be updated with setup instructions)
+
+## Data Setup
+
+To use the real MIT-BIH Arrhythmia Database for this project, download the data to `data/mitbih/`:
+
+```bash
+wget https://physionet.org/files/mitdb/1.0.0/mitdbdir.tar
+tar -xvf mitdbdir.tar -C data/mitbih/
+```
+
+Note: After untarring, ensure the .dat and .atr files for all 48 records are directly in `data/mitbih/` (move or rename as needed). This is required for the loading functions in `src/data/load_ecg.py`. For testing without real data, synthetic generation is included in the code.

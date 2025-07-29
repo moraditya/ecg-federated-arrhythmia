@@ -81,7 +81,7 @@ tensorflow-estimator==2.15.0
 tensorflow-io-gcs-filesystem==0.37.1
 tensorflow-metal==1.2.0
 tensorflow-probability==0.22.1
-tensorflow_privacy==0.9.0
+tensorflow_privacy==0.12.0
 termcolor==3.1.0
 threadpoolctl==3.6.0
 typing_extensions==4.14.1
@@ -90,3 +90,4 @@ urllib3==2.5.0
 Werkzeug==3.1.3
 wrapt==1.17.2
 zipp==3.23.0
+tensorflow_federated==0.85.0
